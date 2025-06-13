@@ -1,1 +1,15 @@
+# Ignore runtime and build output
 node_modules/
+npm-debug.log
+.DS_Store
+
+# Ignore core execution and cache data
+../20250612-data/database.sqlite
+../20250612-data/database.sqlite-journal
+../20250612-data/storage/executions/
+../20250612-data/storage/tmp/
+../20250612-data/storage/logs/
+
+# Keep workflows and credentials
+!../20250612-data/storage/workflows/
+!../20250612-data/storage/credentials/
